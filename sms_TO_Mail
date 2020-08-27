@@ -11,9 +11,9 @@ echo '<Response></Response>'; //Place the desired response (if any) here
 */ 
 
 /* Your email address */
-$to = "abdulrahmanok";
+$to = "abdulrahmanok1995@gmail.com";
 $subject = "Message from {$_REQUEST['From']} at {$_REQUEST['To']}"; 
 $message = "You have received a message from {$_REQUEST['From']}. Body: {$_REQUEST['Body']}"; 
-$headers = "From: webmaster@example.com"; // Who should it come from?
+$headers = "From: abdulrahmanok1996@gmail.com"; // Who should it come from?
 
 mail($to, $subject, $message, $headers); 
